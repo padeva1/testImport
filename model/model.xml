@@ -1,1 +1,25 @@
-<project name="testImport" threads="1" pubsub="auto" heartbeat-interval="1" luaroot="@ESP_PROJECT_OUTPUT@/luaroot"><metadata><meta id="layout">{}</meta></metadata><contqueries><contquery name="cq1"/></contqueries></project>
+<project name="testImport" threads="1" pubsub="auto" heartbeat-interval="1" luaroot="@ESP_PROJECT_OUTPUT@/luaroot">
+  <metadata>
+    <meta id="layout">{"cq1":{"Filter":{"x":-130,"y":-120},"Source":{"x":-130,"y":-260}}}</meta>
+    <meta id="studioUploadedBy">anonymousUser</meta>
+    <meta id="studioUploaded">1703248554997</meta>
+    <meta id="studioModifiedBy">anonymousUser</meta>
+    <meta id="studioModified">1703248565678</meta>
+  </metadata>
+  <contqueries>
+    <contquery name="cq1">
+      <windows>
+        <window-source name="Source"/>
+        <window-filter name="Filter">
+          <code><![CDATA[# Created by anonymousUser at 12/22/2023, 12:36:00 PM
+import esp
+def filter(event,context):
+    return False]]></code>
+        </window-filter>
+      </windows>
+      <edges>
+        <edge source="Source" target="Filter"/>
+      </edges>
+    </contquery>
+  </contqueries>
+</project>
