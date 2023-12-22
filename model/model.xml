@@ -1,10 +1,10 @@
 <project name="testImport" threads="1" pubsub="auto" heartbeat-interval="1" luaroot="@ESP_PROJECT_OUTPUT@/luaroot">
   <metadata>
-    <meta id="layout">{"cq1":{"Filter":{"x":-130,"y":-120},"Source":{"x":-130,"y":-260}}}</meta>
+    <meta id="layout">{"cq1":{"Filter":{"x":-130,"y":-120},"Source":{"x":-130,"y":-290}}}</meta>
     <meta id="studioUploadedBy">anonymousUser</meta>
     <meta id="studioUploaded">1703248554997</meta>
     <meta id="studioModifiedBy">anonymousUser</meta>
-    <meta id="studioModified">1703248565678</meta>
+    <meta id="studioModified">1703248586100</meta>
   </metadata>
   <contqueries>
     <contquery name="cq1">
